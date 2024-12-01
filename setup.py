@@ -11,13 +11,15 @@ setup(
     url='https://github.com/mahrtayyab/tweety',
     keywords=['TWITTER', 'TWITTER SCRAPE', 'SCRAPE TWEETS'],
     install_requires=[
-        'beautifulsoup4[lxml]~=4.12',
+        'beautifulsoup4',
         'openpyxl',
-        'httpx[http2]',
+        'httpx[http2]==0.27.2',
         'dateutils',
         'anticaptchaofficial',
         'capsolver',
-        '2captcha-python'
+        '2captcha-python',
+        'python-magic',
+        'html5lib'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
